@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/singfoom/simple_token_authentication
+  revision: 311475dea4c2ffe10067256e48a3ce91f413fca1
+  specs:
+    simple_token_authentication (1.11.0)
+      actionmailer (>= 3.2.6, < 5)
+      actionpack (>= 3.2.6, < 5)
+      devise (~> 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -200,6 +209,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   shoulda-matchers
+  simple_token_authentication!
   simplecov
   spring
   turbolinks
