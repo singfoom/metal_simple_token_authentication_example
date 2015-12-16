@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/singfoom/simple_token_authentication
-  revision: da8792633d91c889925f26029b466b61292e3b7c
+  revision: fd701ac47c26cb01ee705063f1b1cdc2aff33566
   specs:
     simple_token_authentication (1.11.0)
       actionmailer (>= 3.2.6, < 5)
