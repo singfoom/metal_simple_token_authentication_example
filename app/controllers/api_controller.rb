@@ -2,6 +2,7 @@ class ApiController < ActionController::Metal
   include AbstractController::Callbacks
   include ActionController::RackDelegation
   include ActionController::StrongParameters
+  include Devise::Controllers::Helpers # This adds current_user
 
   acts_as_token_authentication_handler_for User, fallback_to_devise: false
 

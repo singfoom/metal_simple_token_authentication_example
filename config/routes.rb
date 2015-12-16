@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  root to: "home#index"
+
   devise_for :users
+  root to: "home#index"
 
   scope constraints: { format: 'application/json' }, :defaults => { :format => 'json' } do
     resources :books, only: [:index, :show, :create, :update]
