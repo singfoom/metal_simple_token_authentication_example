@@ -4,6 +4,8 @@ A Ruby on Rails powered API using ActionController::Metal and Simple Token Authe
 
 ## Usage
 
+### Using cURL
+
 ```bash
 # create the database
 rake db:create db:schema:load
@@ -21,3 +23,11 @@ curl -I "http://localhost:3000/books"
 curl -I "http://localhost:3000/books?user_email=alice@example.com&user_token=Ex4mPle_T0keN"
 # HTTP/1.1 200 OK
 ```
+
+### Using RSpec
+
+```bash
+# run the entire tests suite
+rake
+```
+
