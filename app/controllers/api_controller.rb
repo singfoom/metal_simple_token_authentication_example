@@ -1,5 +1,6 @@
 class ApiController < ActionController::Metal
   include AbstractController::Callbacks
+  include ActionController::Head
   include ActionController::RackDelegation
   include ActionController::StrongParameters
   include Devise::Controllers::Helpers # This adds current_user
